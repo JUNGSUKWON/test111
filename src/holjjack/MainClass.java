@@ -31,7 +31,6 @@ public class MainClass {
 			
 			String cpuDab ="홀";
 			
-			//		int bet = 10;   // 베팅한 구슬의 수
 			// 컴퓨터가 홀인지 짝인지를 먼저 문제를 만들어야
 			Random rd = new Random();
 			int cpu=rd.nextInt(2)+1;
@@ -65,8 +64,6 @@ public class MainClass {
 		}
 
 		// 랜덤 숫자를 만들어서 홀/짝 인지 답이 정해진 상태에서
-//		int num = 7;
-		// num % 2 == 1 공식 = "홀"
 		// 유저에게 홀인지 짝인지를 입력 받기
 		// 만약에 맞으면 내가 베팅한 구슬의 갯수만큼 내 구슬은 더하기
 		// 틀리면 베팅한 갯수만큼 내 구슬은 빼기
